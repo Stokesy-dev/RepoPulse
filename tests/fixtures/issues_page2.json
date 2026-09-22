@@ -1,0 +1,15 @@
+[
+  {
+    "id": 4,
+    "number": 45,
+    "title": "Improve error messages in API responses",
+    "state": "open",
+    "user": {"login": "dave"},
+    "labels": [{"name": "good-first-issue"}],
+    "comments": 0,
+    "created_at": "2024-02-01T11:00:00Z",
+    "updated_at": "2024-02-02T09:00:00Z",
+    "closed_at": null,
+    "body": "API error messages are too generic."
+  }
+]

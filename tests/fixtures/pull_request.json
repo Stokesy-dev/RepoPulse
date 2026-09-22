@@ -1,0 +1,22 @@
+[
+  {
+    "id": 100,
+    "number": 99,
+    "title": "Merge feature/auth into main",
+    "state": "open",
+    "user": {"login": "eve"},
+    "labels": [],
+    "comments": 0,
+    "created_at": "2024-03-01T08:00:00Z",
+    "updated_at": "2024-03-01T08:00:00Z",
+    "closed_at": null,
+    "body": "This PR adds authentication.",
+    "pull_request": {
+      "url": "https://api.github.com/repos/owner/repo/pulls/99",
+      "html_url": "https://github.com/owner/repo/pull/99",
+      "diff_url": "https://github.com/owner/repo/pull/99.diff",
+      "patch_url": "https://github.com/owner/repo/pull/99.patch",
+      "merged_at": null
+    }
+  }
+]
