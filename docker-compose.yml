@@ -8,7 +8,7 @@ services:
       MYSQL_USER: repopulse
       MYSQL_PASSWORD: repopulse
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - mysql_data:/var/lib/mysql
     healthcheck:
