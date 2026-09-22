@@ -22,7 +22,7 @@ services:
     build: .
     restart: unless-stopped
     ports:
-      - "8000:8000"
+      - "8080:8000"
     environment:
       DATABASE_URL: mysql+pymysql://repopulse:repopulse@db:3306/repopulse
       # Set GITHUB_TOKEN in your shell or a .env file — never commit secrets
