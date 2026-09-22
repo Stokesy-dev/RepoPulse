@@ -31,6 +31,7 @@ WORKDIR /app
 
 # Copy installed packages from builder
 COPY --from=builder /build/site-packages /usr/local/lib/python3.11/site-packages
+ENV PYTHONPATH=/usr/local/lib/python3.11/site-packages
 
 # Copy application source
 COPY app/ ./app/
